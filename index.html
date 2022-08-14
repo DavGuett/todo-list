@@ -10,16 +10,21 @@
 </head>
 
 <body>
-  <h1>Lista de Tarefas</h1>
 
-  <div class="tarefas-container">
-    <div class="tarefa">
-      <input type="checkbox" name="check" id="check">
-      <p>Lavar a louça</p>
+  <div class="conteudo">
+    <h1 class="titulo">Lista de Tarefas</h1>
+
+    <div class="tarefas-container">
+      <div class="tarefa">
+        <input type="checkbox" name="check" id="check">
+        <p>Lavar a louça</p>
+      </div>
+    </div>
+    <div class="campo-funcao">
+      <input class="campo-tarefa" type="text" placeholder="Qual sua tarefa?">
+      <button class="btn">Adicionar Tarefa</button>
     </div>
   </div>
-  <input class="campo-tarefa" type="text" placeholder="Qual sua tarefa?">
-  <button onclick="addTarefa()">Adicionar Tarefa</button>
 
   <script src="index.js"></script>
 </body>

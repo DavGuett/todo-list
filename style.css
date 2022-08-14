@@ -1,3 +1,24 @@
 p {
   display: inline;
 }
+button {
+  display: block;
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo {
+  text-align: center;
+  grid-column: 1 / -1;
+}
+.tarefas-container {
+  grid-column: 1;
+  justify-self: center;
+}
+
+.campo-funcao {
+  grid-column: 2;
+  justify-self: center;
+}
